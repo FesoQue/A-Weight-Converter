@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Converter</title>
+    <!-- bootstrap  CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- main CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font-awesome -->
+    <script src="/js/all.js"></script>
+</head>
+<body>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <h1 class="display-4 text-center mb-3">Weight Converter</h1>
+          
+          <!--form-->
+          <form>
+            <div class="form-group" >
+              <input 
+              id="lbsInput"
+              type="number" 
+              class="form-control form-control-lg" placeholder="enter pounds...">
+            </div>
+          </form>           
+          <!--output-->
+          <div id="output">
+            grams
+            <div class="card bg-success p-2 mb-2">
+              <div class="card-block">
+                <h4>Grams:</h4>
+                <div id="gramsOutput"></div>
+              </div>
+            </div>
+            <!--kilograms-->
+            <div class="card bg-primary p-2 mb-2">
+              <div class="card-block">
+                <h4>Kilograms:</h4>
+                <div id="kgOutput"></div>
+              </div>
+            </div>
+            <!--Ounces-->
+            <div class="card bg-danger p-2 mb-2">
+              <div class="card-block">
+                <h4>Ounces:</h4>
+                <div id="ozOutput"></div>
+              </div>
+            </div>  
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    
+
+    
+    
+    
+    
+<!--style script-->
+<script type="text/javascript" src="app.js"></script>   
+    
+<!--Bootstrap script -->
+<!-- jQuery first, then Bootstrap JS -->
+<script type="text/javascript" src="/js/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
